@@ -28,8 +28,6 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
-    faraday-retry (2.2.0)
-      faraday (~> 2.0)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -249,19 +247,12 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
-    webrick (1.8.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  faraday-retry
   github-pages
-  jekyll
-  jekyll-include-cache
-  jekyll-seo-tag
-  jekyll-sitemap
-  webrick
 
 BUNDLED WITH
    2.3.26

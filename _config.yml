@@ -2,8 +2,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+theme: "minima"
 
 collections:
   authors:
@@ -14,13 +13,13 @@ defaults:
       path: ""
       type: "authors"
     values:
-      layout: "archive"
+      layout: "page"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "single"
+      layout: "post"
   - scope:
       path: ""
     values:
-      layout: "single"
+      layout: "page"

@@ -1,25 +1,9 @@
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
 theme: "minima"
-
-collections:
-  authors:
-    output: true
+title: "Nichi10p's Blog"
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "page"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "page"

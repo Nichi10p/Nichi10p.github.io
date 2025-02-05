@@ -2,6 +2,8 @@
 layout: home
 title: Home
 ---
+
+---
 ## Tags
 {% for tag in site.tags %}
 ### {{ tag[0] }}
